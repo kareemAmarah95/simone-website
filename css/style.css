@@ -361,6 +361,13 @@ a {
   padding-top: 7rem;
 }
 
+.about-me .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
 .about-me .title .parent {
   position: relative;
   z-index: 5;
@@ -880,6 +887,14 @@ a {
   padding-bottom: 5rem;
   background: #f8f9fa;
 }
+
+.portfolio .title4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
 .portfolio .text-overlay4 {
   opacity: 5%;
   text-transform: uppercase;
@@ -891,13 +906,8 @@ a {
   color: #252b33;
   font-size: 8rem;
   left: 17%;
-  top: 5%;
+  bottom: 34%;
   right: 18%;
-}
-
-.portfolio .title4 .parent4 {
-  position: relative;
-  z-index: 5;
 }
 
 .portfolio .title4 .ruler {
@@ -1056,13 +1066,10 @@ a {
 .client .title5 {
   background: #f8f9fa;
   padding: 5rem 0px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
-}
-
-.client .title5 .parent5 {
-  position: relative;
-  z-index: 5;
 }
 
 .client .title5 .text-overlay5 {
@@ -1187,10 +1194,17 @@ a {
 /* Contact Section Start */
 
 .contact {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.contact .title6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .contact .title6 .text-overlay6 {
@@ -1199,17 +1213,10 @@ a {
   font-weight: 600;
   z-index: 555;
   position: absolute;
-  font-size: 7rem;
   color: #252b33;
   font-size: 8rem;
   left: 12%;
-  top: 0%;
   right: 14%;
-}
-
-.contact .title6 .parent6 {
-  position: relative;
-  z-index: 5;
 }
 
 .contact .contact-container {
@@ -1463,15 +1470,20 @@ footer .footer-container .footer-right-item {
 
   /* About Me Section Start */
 
-  .about-me {
+  .sbout-me {
+    padding-top: 5rem;
+  }
+
+  .about-me .title {
     position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-me .title .text-overlay {
-    position: absolute;
-    top: 2%;
     left: 12%;
+    top: 30%;
     font-size: 9rem;
   }
 
@@ -1578,6 +1590,13 @@ footer .footer-container .footer-right-item {
   .summary {
     position: relative;
     overflow: hidden;
+  }
+
+  .summary .title3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
   }
 
   .summary .title3 .text-overlay3 {
@@ -1697,16 +1716,24 @@ footer .footer-container .footer-right-item {
 
   /* Contact Section Start */
 
-  .contact {
+  .contact .title6 {
     position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contact .title6 .text-overlay6 {
-    position: absolute;
-    top: 1%;
+    top: 10%;
     left: 10%;
-    font-size: 7rem;
+    background: red;
+    z-index: 222;
+  }
+
+  .contact .title6 .parent6 {
+    top: 10%;
+    left: 10%;
+    position: absolute;
   }
 
   .contact .contact-container {

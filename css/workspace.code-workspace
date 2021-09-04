@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\bootsrap\\bootstrap-5.0.2-dist"
+	}
+],
+  "settings": {}
+}
